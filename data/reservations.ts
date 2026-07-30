@@ -1,0 +1,66 @@
+import type { Reservation } from '@/types';
+
+const reservations: Reservation[] = [
+  {
+    id: 'res-1',
+    barberId: 'barber-1',
+    serviceIds: ['svc-1'],
+    customerName: 'سامي',
+    customerPhone: '+970591234567',
+    startTime: '10:00',
+    endTime: '10:30',
+    status: 'in-progress',
+  },
+  {
+    id: 'res-2',
+    barberId: 'barber-1',
+    serviceIds: ['svc-2'],
+    customerName: 'نور',
+    customerPhone: '+970592345678',
+    startTime: '10:30',
+    endTime: '10:50',
+    status: 'confirmed',
+  },
+  {
+    id: 'res-3',
+    barberId: 'barber-1',
+    serviceIds: ['svc-1', 'svc-3'],
+    customerName: 'كريم',
+    customerPhone: '+970593456789',
+    startTime: '10:50',
+    endTime: '12:05',
+    status: 'confirmed',
+  },
+  {
+    id: 'res-4',
+    barberId: 'barber-2',
+    serviceIds: ['svc-1'],
+    customerName: 'فهد',
+    customerPhone: '+970594567890',
+    startTime: '11:30',
+    endTime: '12:00',
+    status: 'confirmed',
+  },
+  {
+    id: 'res-5',
+    barberId: 'barber-2',
+    serviceIds: ['svc-4'],
+    customerName: 'ماجد',
+    customerPhone: '+970595678901',
+    startTime: '12:00',
+    endTime: '13:00',
+    status: 'confirmed',
+  },
+  {
+    id: 'res-6',
+    barberId: 'barber-3',
+    serviceIds: ['svc-1'],
+    customerName: 'هاني',
+    customerPhone: '+970596789012',
+    startTime: '09:30',
+    endTime: '10:00',
+    status: 'confirmed',
+  },
+]
+
+export default reservations
